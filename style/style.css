@@ -114,4 +114,57 @@ header {
 .color1{
     color: #FF900E;
  }
- 
+
+ /* features styles */
+ .features{
+    display: flex;
+    gap: 54px;
+    justify-content: center;
+ }
+ .features-title-text{
+    border-left: #FF900E solid 8px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: 700;
+    padding-left: 20px;
+ }
+ .features-title p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+ }
+ .features-box{
+    margin-top: 30px;
+    width: 586px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 42px 30px 30px;
+    
+ }
+ .features-box-title{
+    margin-bottom: 20px;
+ }
+ .features-img img{
+    width: 708px;
+    height: 982;
+    
+ }
+ .features-btn{
+    position:relative;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 60px;
+    border: 0;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 5px;
+    margin-bottom: -600px;
+    margin-right: -180px;
+    z-index: 1;
+ }
+ .font-size1{
+    font-size: 25px;
+ }
