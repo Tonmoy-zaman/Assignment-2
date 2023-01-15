@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
@@ -26,7 +26,7 @@ header {
 .nav-title {
     font-size: 45px;
     font-weight: 700;
-    
+
 }
 
 .menu ul {
@@ -40,8 +40,9 @@ header {
     list-style: none;
     margin-left: 50px;
 }
+
 /* banner styles */
-.banner{
+.banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,18 +50,21 @@ header {
     text-align: center;
 
 }
-.banner-title h1{
+
+.banner-title h1 {
     font-size: 64px;
     font-weight: 700;
     margin-bottom: 30px;
 }
-.banner-info{
+
+.banner-info {
     color: #727272;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 50px;
 }
-.btn-1{
+
+.btn-1 {
     color: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
@@ -71,86 +75,101 @@ header {
     background: #FF900E;
     border-radius: 5px;
 }
-.banner-img{
+
+.banner-img {
 
     margin-top: 50px;
     width: 1440px;
 }
 
 /* quicklist styles  */
-.quicklist{
+.quicklist {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 73px;
     margin: 85px 301px 301px 130px;
 }
-.quicklist-img{
+
+.quicklist-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 24px;
     grid-column-gap: 24px;
 }
-.quicklist-text{
+
+.quicklist-text {
     width: 537px;
     height: 304px;
-    
+
 }
-.quicklist-title{
+
+.quicklist-title {
     margin-bottom: 20px;
     font-size: 45px;
     font-weight: 700;
-    
+
 }
-.quiclist-info{
+
+.quiclist-info {
     color: #727272;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 30px;
 }
-.color2{
+
+.color2 {
     color: #727272;
 }
-.color1{
-    color: #FF900E;
- }
 
- /* features styles */
- .features{
+.color1 {
+    color: #FF900E;
+}
+
+/* features styles */
+.features {
     display: flex;
     gap: 54px;
     justify-content: center;
- }
- .features-title-text{
+}
+
+.features-title-text {
     border-left: #FF900E solid 8px;
     margin-bottom: 20px;
     font-size: 45px;
     font-weight: 700;
     padding-left: 20px;
- }
- .features-title p, .facts-title p, .sponsors-text p{
+}
+
+.features-title p,
+.facts-title p,
+.sponsors-text p {
     color: #727272;
     font-size: 16px;
     font-weight: 400;
- }
- .features-box{
+}
+
+.features-box {
     margin-top: 30px;
     width: 586px;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     padding: 30px 42px 30px 30px;
-    
- }
- .features-box-title{
+
+}
+
+.features-box-title {
     margin-bottom: 20px;
- }
- .features-img img{
+}
+
+.features-img img {
     width: 708px;
     height: 982;
-    
- }
- .features-btn{
-    position:relative;
+
+}
+
+.features-btn {
+    position: relative;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 60px;
@@ -164,81 +183,105 @@ header {
     margin-bottom: -600px;
     margin-right: -180px;
     z-index: 1;
- }
- .font-size1{
-    font-size: 25px;
- }
+}
 
- /* facts styles */
- .facts{
+.font-size1 {
+    font-size: 25px;
+}
+
+/* facts styles */
+.facts {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-left: 160px;
- }
- .facts-text{
+}
+
+.facts-text {
     margin-top: 200px;
- }
- .facts-title-text{
+}
+
+.facts-title-text {
     margin-bottom: 20px;
     font-size: 45px;
     font-weight: 700;
- }
- .facts-boxes{
+}
+
+.facts-boxes {
     margin-top: 100px;
     width: 100%;
     display: flex;
     gap: 125px;
     justify-content: center;
     margin-left: -100px;
- }
- .facts-box{
+}
+
+.facts-box {
     height: 242px;
     width: 242px;
-    border: 1px solid #FF900E ;
+    border: 1px solid #FF900E;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
- }
- .facts-box-title{
+}
+
+.facts-box-title {
     font-size: 30px;
     font-weight: 600;
     color: #424242;
     margin-bottom: 10px;
     margin-top: 20px;
- }
- .facts-box-info{
+}
+
+.facts-box-info {
     font-size: 20px;
     font-weight: 600;
     color: #727272;
- }
+}
 
- /* sponsors styles */
+/* sponsors styles */
 
- .sponsors{
+.sponsors {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     margin-top: 180px;
- }
- .sponsors-text{
+}
+
+.sponsors-text {
     text-align: center;
     align-items: center;
- }
- .sponsors-title{
+}
+
+.sponsors-title {
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 600;
- }
- .sponsors-img{
+}
+
+.sponsors-img {
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
-    
- }
- .sponsors-img img{
+
+}
+
+.sponsors-img img {
     filter: grayscale();
- }
+}
+
+/* footer styles  */
+
+.footer-box {
+    padding: 30px;
+    
+    margin: 180px auto 100px;
+    width: 75%;
+   
+    text-align: center;
+    background-color: #FFF4E7;
+    
+}
