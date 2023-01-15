@@ -3,9 +3,8 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-
 /* Fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:wght@500&family=Work+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap');
 
 /* header style  */
 header {
@@ -77,3 +76,42 @@ header {
     margin-top: 50px;
     width: 1440px;
 }
+
+/* quicklist styles  */
+.quicklist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+    margin: 85px 301px 301px 130px;
+}
+.quicklist-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+.quicklist-text{
+    width: 537px;
+    height: 304px;
+    
+}
+.quicklist-title{
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+.quiclist-info{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.color2{
+    color: #727272;
+}
+.color1{
+    color: #FF900E;
+ }
+ 
